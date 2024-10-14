@@ -43,8 +43,8 @@ function CadastroUser() {
 
   return (
     <div id="formulario">
-      <img src={logo} alt="Logo" type="image" />
-      <form>
+      <form id="form">
+        <img src={logo} alt="Logo" type="image" />
         <h2>Cadastrar-se</h2>
         <label htmlFor="nome">Nome</label>
         <input
@@ -92,6 +92,8 @@ function CadastroUser() {
         />
 
         <input onClick={salvar} type="button" value="Cadastrar-se" />
+
+        <a href="http://localhost:3000/Hopme">Home</a>
       </form>
     </div>
   );

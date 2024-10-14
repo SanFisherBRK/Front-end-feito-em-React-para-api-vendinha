@@ -1,6 +1,10 @@
 import logo from "./logo.svg";
+import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
 import "./App.css";
 import CadastroUser from "./components/CadastroUser";
+import { Jumbotron, Button } from "react-bootstrap";
 
 function App() {
   return (
@@ -14,7 +18,11 @@ function App() {
         <br /> e desenvolvimento de sistemas organizado pela Faculdade Impacta.
         <br />
         Diretório do projeto em:
-        <a href="https://github.com/SanFisherBRK/api-vendinha">
+        <br />
+        <a
+          href="https://github.com/SanFisherBRK/api-vendinha"
+          className="btn btn-primary"
+        >
           Repositório do projeto
         </a>
       </h3>
